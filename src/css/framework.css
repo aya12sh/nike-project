@@ -880,7 +880,7 @@ text-transform:capitalize;
  color: var(--muted);
 }
 .btn-dribble {
-  max-width: fit-content;
+max-width: fit-content;
 background-color: var(--dribble);
 border: none;
 font-size: var(--5);
