@@ -607,6 +607,9 @@ height: var(--screen-h);
 .text-primary{
   color: var(--primary)
 }
+.text-white{
+  color: var(--white);
+}
 /* text size */
 .text-xs{
   font-size:var(--3);
@@ -733,6 +736,9 @@ text-transform:capitalize;
 .mt-1{
   margin-top: var(--1);
 }
+.mt-3{
+  margin-top: var(--3);
+}
 .mt-8{
   margin-top: var(--8);
 }
@@ -772,6 +778,9 @@ text-transform:capitalize;
   margin-bottom: var(--32);
 }
 /* margin left */
+.ml-10{
+  margin-left: var(--10);
+}
 .ml-16 {
   margin-left: var(--16);
 }
@@ -854,6 +863,7 @@ text-transform:capitalize;
 .pl-64{
   padding-left: var(--64);
 }
+.pl-
 .pr-12{
   padding-right: var(--12);
 }
