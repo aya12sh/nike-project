@@ -1,7 +1,7 @@
 /* 1- starting naming variables */
 :root {
     /* colors */
-    --primary:  #5E3BEE;
+    --primary:  rgb(255, 100, 82);
     --heading: #282938;
     --muted:  #F5FCFF;
     --dribble: #E62872;
