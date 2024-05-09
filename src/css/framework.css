@@ -859,6 +859,14 @@ text-transform:capitalize;
   padding-top: var(--6);
   padding-bottom: var(--6);
 }
+.py-10{
+  padding-top: var(--10);
+  padding-bottom: var(--10);
+}
+.py-15 {
+  padding-top: var(--15);
+  padding-bottom: var(--15);
+}
 /* padding x */
 .px-8{
   padding-left:var(--8) ;
@@ -905,11 +913,13 @@ text-transform:capitalize;
 .pl-64{
   padding-left: var(--64);
 }
-.pl-
 .pr-12{
   padding-right: var(--12);
 }
 /* background color*/
+.bg-primary{
+  background-color: var(--primary);
+}
 .bg-muted {
   background-color: var(--muted);
 }
@@ -1009,6 +1019,9 @@ color: var(--white);
   }
  .rounded {
 border-radius: var(--rounded-btn);
+ }
+ .rounded-20{
+  border-radius: 20px;
  }
  .rounded-full {
   border-radius: 9999px;
