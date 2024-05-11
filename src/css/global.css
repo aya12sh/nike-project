@@ -2,7 +2,7 @@ html, body{
   font-family:Roboto;
 }
 .sec{
-  
+  padding-right: 2px;
 }
 ul{
   list-style: none;
