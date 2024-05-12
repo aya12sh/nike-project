@@ -2,10 +2,13 @@ html, body{
   font-family:Roboto;
 }
 .sec{
-  padding-right: 2px;
+  padding-left: var(--12);
 }
 ul{
   list-style: none;
+}
+h2{
+  font-size: 30px;
 }
 a{
   text-decoration: none;
