@@ -2,14 +2,13 @@ html, body{
   font-family:Roboto;
 }
 .sec{
-  padding-left: var(--12);
-}
+  padding: 0 var(--16);
+   max-width: var(--full);
+   }
 ul{
   list-style: none;
 }
-h2{
-  font-size: 30px;
-}
+
 a{
   text-decoration: none;
   color: #999;
