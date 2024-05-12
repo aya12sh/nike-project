@@ -889,6 +889,9 @@ text-transform:capitalize;
  padding-right:var(--12) ;
 }
 /* padding top */
+.pt-12{
+  padding-top:var(--12) ;
+}
 .pt-18{
   padding-top: var(--18);
 }
@@ -1036,11 +1039,17 @@ color: var(--white);
  	.gap-2{
     gap: var(--2);
   }
+ 	.gap-4{
+    gap: var(--4);
+  }
   .gap-9{
     gap: var(--9);
   }
   .gap-12{
     gap: var(--12);
+  }
+  .gap-20{
+    gap: var(--20);
   }
  .rounded {
 border-radius: var(--rounded-btn);
