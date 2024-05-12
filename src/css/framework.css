@@ -1068,6 +1068,7 @@ background-repeat: no-repeat;
 background-position: center;
 width: 100%;
 max-height: var(--screen-h);
+background-size: cover;
 }
 /* media query */
 @media not all and (min-width: 1024px) {
