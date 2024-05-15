@@ -2,7 +2,7 @@ html, body{
   font-family:Roboto;
 }
 .sec{
-  padding: 0 var(--16);
+  padding: 0 var(--22);
    max-width: var(--full);
    }
 ul{
@@ -13,6 +13,6 @@ a{
   text-decoration: none;
   color: #999;
 }
-p{
+/* p{
   font-family: Darker Grotesque;
-}
+} */

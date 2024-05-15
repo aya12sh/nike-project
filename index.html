@@ -19,13 +19,12 @@
 
 <body>
     <main>
-        <header class="">
-            <div class="flex justify-between items-center">
+        <header class=" px-8 py-4 z-10 absolute">
+            <nav class="flex justify-between items-center gap-90">
                 <div class="logo">
-                    <a href=""><img src="./assets/images/header-logo.svg" alt="logo" height="29" width="130"></a>
+                    <a href=""><img src="./assets/images/header-logo.svg" alt="logo" height="29" width="129"></a>
                 </div>
-                <nav class="flex-1 pl-64">
-                    <ul class="flex items-center gap-x-12 max-lg:hidden">
+                    <ul class="flex-1 gap-16 flex items-center gap-x-15 text-xl max-lg:hidden">
                         <li>
                             <a href="#Home">Home</a>
                         </li>
@@ -39,47 +38,59 @@
                             <a href="#Contact-Us">Contact Us</a>
                         </li>
                     </ul>
-                </nav>
-                <div class="hidden max-lg:block">
-                    <img src="./assets/icons/hamburger.svg" alt="hamburger" height="25" width="25">
+                <div class="hamburger hidden  flex flex-col max-lg:flex">
+                   <span id="first-line" class="line"></span>
+                   <span id="second-line" class="line"></span>
+                   <span id="third-line" class="line"></span>
                 </div>
-            </div>
+            </nav>
         </header>
         <section class="content-sec">
-            <section id="home" class="sec">
-                <div class="text">
-                    <p>Lorem, ipsum dolor.</p>
-                    <h1>the new arrival <span class="text-primary">nike</span>shoes</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur.</p>
-                <button>
-                            <span>show now</span>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10Z"
-                                    fill="white" />
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M11.0886 6.18499C10.8717 6.43163 10.8717 6.83153 11.0886 7.07817L13.1032 9.36842H5.55556C5.24873 9.36842 5 9.65119 5 10C5 10.3488 5.24873 10.6316 5.55556 10.6316H13.1032L11.0886 12.9218C10.8717 13.1685 10.8717 13.5684 11.0886 13.815C11.3056 14.0617 11.6574 14.0617 11.8743 13.815L14.8373 10.4466C15.0542 10.1999 15.0542 9.80005 14.8373 9.55341L11.8743 6.18499C11.6574 5.93834 11.3056 5.93834 11.0886 6.18499Z"
-                                    fill="#FF6452" />
-                            </svg>
-                </button>
-                <div>
-                    <div><p class="">1k+</p><p class="">Brands</p></div>
-                    <div><p class="">1k+</p><p class="">Brands</p></div>
-                    <div><p class="">1k+</p><p class="">Brands</p></div>
-                </div> 
+            <section class="sec  home-sec relative flex min-h-screen justify-center max-lg:flex-col" id="home">
+                <div class="home-text relative flex flex-col  pt-28" style="width:40%;">
+                    <p class="text-xl text-primary mb-12">Lorem ipsum dolor</p>
+                    <h1 class="capitalize text-7xl bold m-0 mb-12">the new arrival <span class="text-primary"> nike</span> shoes</h1>
+                    <p class="text-lg body-color mb-12">Lorem ipsum, dolor sit amet consectetur.</p>
+                    <button class=" btn btn-primary rounded-full mb-12">
+                        <span class="text-lg"> show now</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10Z"
+                                fill="white" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.0886 6.18499C10.8717 6.43163 10.8717 6.83153 11.0886 7.07817L13.1032 9.36842H5.55556C5.24873 9.36842 5 9.65119 5 10C5 10.3488 5.24873 10.6316 5.55556 10.6316H13.1032L11.0886 12.9218C10.8717 13.1685 10.8717 13.5684 11.0886 13.815C11.3056 14.0617 11.6574 14.0617 11.8743 13.815L14.8373 10.4466C15.0542 10.1999 15.0542 9.80005 14.8373 9.55341L11.8743 6.18499C11.6574 5.93834 11.3056 5.93834 11.0886 6.18499Z"
+                                fill="#FF6452" />
+                        </svg>
+                   </button>
+                    <div class="flex justify-start gap-16 items-start">
+                        <div>
+                            <p class="text-5xl semibold my-0">1k+</p>
+                            <p class="body-color text-xl">Brands</p>
+                        </div>
+                        <div>
+                            <p class="text-5xl semibold my-0">1k+</p>
+                            <p class="body-color text-xl">Brands</p>
+                        </div>
+                        <div>
+                            <p class="text-5xl semibold my-0">1k+</p>
+                            <p class="body-color text-xl">Brands</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="home-images">
-                    <img src="./assets/images/big-shoe1.png" alt="big-shoe1" height="500" width="610">
-                    <div>
+                <div class="home-images flex-1 bg-home p-12 relative">
+                    <img src="./assets/images/big-shoe1.png" alt="big-shoe1" class="object-contain pt-22 pl-32 z-10 relative" height="400" width="610">
+                 <div class="flex justify-center gap-x-12 ml-22 absolute  z-10" style="bottom: -12px;">
+                    <div class="bg-home-nav">
                         <img src="./assets/images/big-shoe1.png" alt="big-shoe1" height="103" width="127">
                     </div>
-                    <div>
+                    <div class="bg-home-nav">
                         <img src="./assets/images/big-shoe2.png" alt="big-shoe2" height="103" width="127">
                     </div>
-                    <div>
+                    <div class="bg-home-nav">
                         <img src="./assets/images/big-shoe3.png" alt="big-shoe3" height="103" width="127">
                     </div>
+                 </div>
                 </div>
             </section>
             <section id="Products" class="sec">
@@ -147,8 +158,8 @@
                     </div>
                 </div>
             </section>
-            <section id="about-us" class="sec flex justify-center flex-wrap gap-12 my-0 mx-auto py-10 sm:px-16 sm:py-24">
-                <div class="about-us__text pt-18 pl-22 flex-col justify-center flex-1">
+            <section id="about-us" class="sec flex justify-center flex-wrap gap-12 my-0 mx-auto py-10 sm:px-16 sm:py-24 ">
+                <div class="about-us__text pt-18 pl-22 flex flex-col justify-center flex-1">
                     <h2 class="  text-5xl capitalize bold">We Provide You <span class="text-primary">Super</span> <span class="text-primary">Quality</span> Shoes</h2>
                     <p class=" text-body text-xl">Ensuring premium comfort and style, our meticulously crafted footwear is designed to elevate your
                         experience, providing you with unmatched quality, innovation, and a touch of elegance.</p>
@@ -157,7 +168,7 @@
                     <button class=" flex items-center justify-center rounded-full btn-primary btn ">View details</button>
                     </div>
                 </div>
-                <div class="about-us__img flex-1 justify-center items-center">
+                <div class="about-us__img flex flex-1 justify-center items-center">
                     <img src="https://nike-clone-ruby.vercel.app/build/_assets/shoe8-OH4QWLKN.svg"
                         class="object-containe " alt="shoe8">
                 </div>
