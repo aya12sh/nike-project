@@ -601,7 +601,7 @@ height: var(--screen-h);
 .w-screen{
   width:var(--screen-w);
 }
-/* text color */
+/* color */
 .text-primary{
   color: var(--primary)
 }
