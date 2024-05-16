@@ -1,5 +1,5 @@
 html, body{
-  font-family:Roboto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .sec{
   padding: 0 var(--22);
@@ -16,3 +16,6 @@ a{
 /* p{
   font-family: Darker Grotesque;
 } */
+h1,h2,h3{
+  margin: 0;
+}

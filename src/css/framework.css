@@ -826,6 +826,9 @@ text-transform:capitalize;
 .mb-9{
   margin-bottom: var(--9); 
 }
+.mb-10{
+  margin-bottom: var(--10); 
+}
 .mb-12{
   margin-bottom: var(--12); 
 }
@@ -933,6 +936,9 @@ text-transform:capitalize;
 }
 .pb-10 {
   padding-bottom: var(--10);
+}
+.pb-12 {
+  padding-bottom: var(--12);
 }
 /* padding left */
 .pl-12{
