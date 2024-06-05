@@ -1,10 +1,11 @@
 html, body{
   font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
 }
 .sec{
-  padding: 0 var(--22);
-   max-width: var(--full);
-   }
+  padding: 0 var(--12);
+  max-width: var(--full) ;
+}
 ul{
   list-style: none;
 }
@@ -13,9 +14,68 @@ a{
   text-decoration: none;
   color: #999;
 }
-/* p{
-  font-family: Darker Grotesque;
-} */
-h1,h2,h3{
-  margin: 0;
+a:hover{
+  color: var(--primary);
 }
+p,li,a{
+  margin: 0;
+  font-family: "montserrat", sans-serif;
+}
+h1,h2,h3,h4{
+  margin: 0;
+  font-family: "Palanquin", sans-serif;
+}
+#hero-img{
+  padding: 0;
+  height: 350px;
+  width: 350px;
+}
+@media not all and (max-width: 1024px){
+  #hero-img{
+    padding: 88px 0;
+    height:500px;
+    width:710px;
+  }
+}
+#about-img{
+  padding: 0;
+  height: 330px;
+  width: 400px;
+}
+@media not all and (max-width: 1024px){
+  #about-img{
+    padding: 88px 0;
+    height:500px;
+    width:710px;
+  }
+}
+#about-img{
+  padding: 0;
+  height: 330px;
+  width: 400px;
+}
+@media not all and (max-width: 1024px){
+  #about-img{
+    padding: 88px 0;
+    height:500px;
+    width:710px;
+  }
+}
+.hamburger{
+  cursor: pointer;
+}
+.hamburger > span{
+  width: var(--4);
+  display: block;
+  background: black;
+  height: 1px;
+  
+}
+.hamburger > span:nth-child(2){
+ margin: 4px 0;
+ transition: display 0.1s ease-in 1s;
+}
+.hamburger > span:nth-child(1), .hamburger > span:nth-child(3){
+  transition: all 0.2s ease-in;
+  transform-origin: center;
+ }

@@ -2,382 +2,447 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nike</title>
-    <link href="./src/css/style.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap" rel="stylesheet">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>nike</title>
+  <link href="./src/css/style.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <main>
-        <header class=" px-8 py-4 z-10 absolute">
-            <nav class="flex justify-between items-center gap-90">
-                <div class="logo">
-                    <a href=""><img src="./assets/images/header-logo.svg" alt="logo" height="29" width="129"></a>
-                </div>
-                    <ul class="flex-1 gap-16 flex items-center gap-x-15 text-xl max-lg:hidden">
-                        <li>
-                            <a href="#Home">Home</a>
-                        </li>
-                        <li>
-                            <a href="#About-Us">About Us</a>
-                        </li>
-                        <li>
-                            <a href="#Products">Products</a>
-                        </li>
-                        <li>
-                            <a href="#Contact-Us">Contact Us</a>
-                        </li>
-                    </ul>
-                <div class="hamburger hidden  flex flex-col max-lg:flex">
-                   <span id="first-line" class="line"></span>
-                   <span id="second-line" class="line"></span>
-                   <span id="third-line" class="line"></span>
-                </div>
-            </nav>
-        </header>
-        <section class="content-sec">
-            <section class="sec  home-sec relative flex min-h-screen justify-center max-lg:flex-col xl:px-4" id="home">
-                <div class="home-text relative flex flex-col  pt-28" style="width:40%;">
-                    <p class="text-xl text-primary mb-10 ">Lorem ipsum dolor</p>
-                    <h1 class="capitalize text-8xl bold m-0 ">
-                        <span style="text-wrap: nowrap; display: inline-block;" class="z-30 relative bg-white p-1 mb-2">the new arrival</span> 
-                        <br>
-                        <span class="text-primary"> nike</span>
-                      shoes</h1>
-                    <p class="text-lg body-color mb-12 leading-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorum ipsa sed architecto quaerat tempora velit reprehenderit enim ut inventore.</p>
-                    <button class=" btn btn-primary rounded-full mb-12">
-                        <span class="text-lg"> show now</span>
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10Z"
-                                fill="white" />
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M11.0886 6.18499C10.8717 6.43163 10.8717 6.83153 11.0886 7.07817L13.1032 9.36842H5.55556C5.24873 9.36842 5 9.65119 5 10C5 10.3488 5.24873 10.6316 5.55556 10.6316H13.1032L11.0886 12.9218C10.8717 13.1685 10.8717 13.5684 11.0886 13.815C11.3056 14.0617 11.6574 14.0617 11.8743 13.815L14.8373 10.4466C15.0542 10.1999 15.0542 9.80005 14.8373 9.55341L11.8743 6.18499C11.6574 5.93834 11.3056 5.93834 11.0886 6.18499Z"
-                                fill="#FF6452" />
-                        </svg>
-                   </button>
-                    <div class="flex justify-start gap-16 items-start">
-                        <div>
-                            <p class="text-5xl semibold my-0">1k+</p>
-                            <p class="body-color text-xl">Brands</p>
-                        </div>
-                        <div>
-                            <p class="text-5xl semibold my-0">1k+</p>
-                            <p class="body-color text-xl">Brands</p>
-                        </div>
-                        <div>
-                            <p class="text-5xl semibold my-0">1k+</p>
-                            <p class="body-color text-xl">Brands</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="home-images flex-1 bg-home p-12 relative">
-                    <img src="./assets/images/big-shoe1.png" alt="big-shoe1" class="object-contain pt-22 pl-32 z-10 relative" height="400" width="610">
-                 <div class="flex justify-center gap-x-12 ml-22 absolute  z-10" style="bottom: -12px;">
-                    <div class="bg-home-nav">
-                        <img src="./assets/images/big-shoe1.png" alt="big-shoe1" height="103" width="127">
-                    </div>
-                    <div class="bg-home-nav">
-                        <img src="./assets/images/big-shoe2.png" alt="big-shoe2" height="103" width="127">
-                    </div>
-                    <div class="bg-home-nav">
-                        <img src="./assets/images/big-shoe3.png" alt="big-shoe3" height="103" width="127">
-                    </div>
-                 </div>
-                </div>
-            </section>
-            <section id="Products" class="sec">
-                <div class="Products__text flex flex-col my-20">
-                    <h2 class=" text-5xl capitalize bold">Our <span class="text-primary">Popular</span> Products</h2>
-                    <p class=" text-body text-xl leading-8">Experience top-notch quality and style with our sought-after selections. Discover a world of
-                        comfort, design, and value.</p>
-                </div>
-                <div class="Products__img flex justify-between ">
-                    <div class="">
-                        <img src="./assets/images/shoe4.svg" alt="shoe4">
-                        <div>
-                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M10.0755 1.24162C10.4158 0.416631 11.5842 0.416631 11.9245 1.24162L13.9694 6.20014C14.2507 6.88227 14.8848 7.3541 15.619 7.42766L20.796 7.94636C21.6527 8.03219 22.0077 9.08845 21.3767 9.67424L17.3747 13.3897C16.8594 13.8681 16.6332 14.582 16.7789 15.2699L17.9307 20.7069C18.1132 21.5686 17.1733 22.2283 16.425 21.7638L12.0548 19.051C11.4088 18.6499 10.5912 18.6499 9.94518 19.051L5.57504 21.7638C4.82673 22.2283 3.88681 21.5686 4.06934 20.7069L5.22109 15.2699C5.36681 14.582 5.14058 13.8681 4.62527 13.3897L0.62328 9.67424C-0.00768149 9.08845 0.347297 8.03219 1.20397 7.94636L6.38103 7.42766C7.11522 7.3541 7.74926 6.88227 8.03058 6.20014L10.0755 1.24162Z"
-                                    fill="#FF6452" />
-                            </svg>
-                            <span>(4.5)</span>
-                        </div>
-                        <h3>Nike Air Jordan-01</h3>
-                        <p class="text-primary text-3xl capitalize bold">$200.20</p>
-                    </div>
-                    <div>
-                        <img src="./assets/images/shoe5.svg" alt="shoe5">
-                        <div>
-                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M10.0755 1.24162C10.4158 0.416631 11.5842 0.416631 11.9245 1.24162L13.9694 6.20014C14.2507 6.88227 14.8848 7.3541 15.619 7.42766L20.796 7.94636C21.6527 8.03219 22.0077 9.08845 21.3767 9.67424L17.3747 13.3897C16.8594 13.8681 16.6332 14.582 16.7789 15.2699L17.9307 20.7069C18.1132 21.5686 17.1733 22.2283 16.425 21.7638L12.0548 19.051C11.4088 18.6499 10.5912 18.6499 9.94518 19.051L5.57504 21.7638C4.82673 22.2283 3.88681 21.5686 4.06934 20.7069L5.22109 15.2699C5.36681 14.582 5.14058 13.8681 4.62527 13.3897L0.62328 9.67424C-0.00768149 9.08845 0.347297 8.03219 1.20397 7.94636L6.38103 7.42766C7.11522 7.3541 7.74926 6.88227 8.03058 6.20014L10.0755 1.24162Z"
-                                    fill="#FF6452" />
-                            </svg>
-                            <span>(4.5)</span>
-                        </div>
-                        <h3>Nike Air Jordan-01</h3>
-                        <p class="text-primary text-3xl capitalize bold">$210.20</p>
-                    </div>
-                    <div>
-                        <img src="./assets/images/shoe6.svg" alt="shose6">
-                        <div>
-                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M10.0755 1.24162C10.4158 0.416631 11.5842 0.416631 11.9245 1.24162L13.9694 6.20014C14.2507 6.88227 14.8848 7.3541 15.619 7.42766L20.796 7.94636C21.6527 8.03219 22.0077 9.08845 21.3767 9.67424L17.3747 13.3897C16.8594 13.8681 16.6332 14.582 16.7789 15.2699L17.9307 20.7069C18.1132 21.5686 17.1733 22.2283 16.425 21.7638L12.0548 19.051C11.4088 18.6499 10.5912 18.6499 9.94518 19.051L5.57504 21.7638C4.82673 22.2283 3.88681 21.5686 4.06934 20.7069L5.22109 15.2699C5.36681 14.582 5.14058 13.8681 4.62527 13.3897L0.62328 9.67424C-0.00768149 9.08845 0.347297 8.03219 1.20397 7.94636L6.38103 7.42766C7.11522 7.3541 7.74926 6.88227 8.03058 6.20014L10.0755 1.24162Z"
-                                    fill="#FF6452" />
-                            </svg>
-                            <span class="text-body text-xl">(4.5)</span>
-                        </div>
-                        <h3 class="text-2xl">Nike Air Jordan-100</h3>
-                        <p class="text-primary text-2xl capitalize bold">$220.20</p>
-                    </div>
-                    <div>
-                        <img src="./assets/images/shoe7.svg" alt="shose7">
-                        <div>
-                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M10.0755 1.24162C10.4158 0.416631 11.5842 0.416631 11.9245 1.24162L13.9694 6.20014C14.2507 6.88227 14.8848 7.3541 15.619 7.42766L20.796 7.94636C21.6527 8.03219 22.0077 9.08845 21.3767 9.67424L17.3747 13.3897C16.8594 13.8681 16.6332 14.582 16.7789 15.2699L17.9307 20.7069C18.1132 21.5686 17.1733 22.2283 16.425 21.7638L12.0548 19.051C11.4088 18.6499 10.5912 18.6499 9.94518 19.051L5.57504 21.7638C4.82673 22.2283 3.88681 21.5686 4.06934 20.7069L5.22109 15.2699C5.36681 14.582 5.14058 13.8681 4.62527 13.3897L0.62328 9.67424C-0.00768149 9.08845 0.347297 8.03219 1.20397 7.94636L6.38103 7.42766C7.11522 7.3541 7.74926 6.88227 8.03058 6.20014L10.0755 1.24162Z"
-                                    fill="#FF6452" />
-                            </svg>
-                            <span>(4.5)</span>
-                        </div>
-                        <h3>Nike Air Jordan-001</h3>
-                        <p class="text-primary text-3xl capitalize bold">$230.20</p>
-                    </div>
-                </div>
-            </section>
-            <section id="about-us" class="sec flex justify-center flex-wrap gap-12 my-0 mx-auto py-10 sm:px-16 sm:py-24 ">
-                <div class="about-us__text pt-18 pl-22 flex flex-col justify-center flex-1">
-                    <h2 class="  text-5xl capitalize bold">We Provide You <span class="text-primary">Super</span> <span class="text-primary">Quality</span> Shoes</h2>
-                    <p class=" text-body text-xl">Ensuring premium comfort and style, our meticulously crafted footwear is designed to elevate your
-                        experience, providing you with unmatched quality, innovation, and a touch of elegance.</p>
-                    <p class=" text-body text-xl">Our dedication to detail and excellence ensures your satisfaction</p>
-                    <div class="bt mt-8  ">
-                    <button class=" flex items-center justify-center rounded-full btn-primary btn ">View details</button>
-                    </div>
-                </div>
-                <div class="about-us__img flex flex-1 justify-center items-center">
-                    <img src="https://nike-clone-ruby.vercel.app/build/_assets/shoe8-OH4QWLKN.svg"
-                        class="object-containe " alt="shoe8">
-                </div>
-            </section>
-            <section id="services" class="sec flex mx-12 gap-x-8 py-15">
-                <div class="services-_card bg-white flex-1 rounded-20 box-shadow py-10 px-12">
-                    <div class="truck-fast bg-primary justify-center items-center flex rounded-full w-9 h-9">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M21.5 15.5C21.78 15.5 22 15.72 22 16V17C22 18.66 20.66 20 19 20C19 18.35 17.65 17 16 17C14.35 17 13 18.35 13 20H11C11 18.35 9.65 17 8 17C6.35 17 5 18.35 5 20C3.34 20 2 18.66 2 17V15C2 14.45 2.45 14 3 14H12.5C13.88 14 15 12.88 15 11.5V6C15 5.45 15.45 5 16 5H16.84C17.56 5 18.22 5.39 18.58 6.01L19.22 7.13C19.31 7.29 19.19 7.5 19 7.5C17.62 7.5 16.5 8.62 16.5 10V13C16.5 14.38 17.62 15.5 19 15.5H21.5Z"
-                                fill="white" />
-                            <path
-                                d="M8 22C9.10457 22 10 21.1046 10 20C10 18.8954 9.10457 18 8 18C6.89543 18 6 18.8954 6 20C6 21.1046 6.89543 22 8 22Z"
-                                fill="white" />
-                            <path
-                                d="M16 22C17.1046 22 18 21.1046 18 20C18 18.8954 17.1046 18 16 18C14.8954 18 14 18.8954 14 20C14 21.1046 14.8954 22 16 22Z"
-                                fill="white" />
-                            <path
-                                d="M22 12.53V14H19C18.45 14 18 13.55 18 13V10C18 9.45 18.45 9 19 9H20.29L21.74 11.54C21.91 11.84 22 12.18 22 12.53Z"
-                                fill="white" />
-                            <path
-                                d="M13.08 2H5.69C3.9 2 2.4 3.28 2.07 4.98H6.44C6.82 4.98 7.12 5.29 7.12 5.67C7.12 6.05 6.82 6.35 6.44 6.35H2V7.73H4.6C4.98 7.73 5.29 8.04 5.29 8.42C5.29 8.8 4.98 9.1 4.6 9.1H2V10.48H2.77C3.15 10.48 3.46 10.79 3.46 11.17C3.46 11.55 3.15 11.85 2.77 11.85H2V12.08C2 12.63 2.45 13.08 3 13.08H12.15C13.17 13.08 14 12.25 14 11.23V2.92C14 2.41 13.59 2 13.08 2Z"
-                                fill="white" />
-                            <path
-                                d="M2.07 4.98438H1.92H0.94C0.56 4.98438 0.25 5.29438 0.25 5.67438C0.25 6.05438 0.56 6.35437 0.94 6.35437H1.85H2V5.69438C2 5.45438 2.03 5.21438 2.07 4.98438Z"
-                                fill="white" />
-                            <path
-                                d="M1.85 7.73438H0.94C0.56 7.73438 0.25 8.04438 0.25 8.42438C0.25 8.80438 0.56 9.10438 0.94 9.10438H1.85H2V7.73438H1.85Z"
-                                fill="white" />
-                            <path
-                                d="M1.85 10.4844H0.94C0.56 10.4844 0.25 10.7944 0.25 11.1744C0.25 11.5544 0.56 11.8544 0.94 11.8544H1.85H2V10.4844H1.85Z"
-                                fill="white" />
-                        </svg>
-                    </div>
-                    <h3>Free shipping</h3>
-                    <p>Enjoy seamless shopping with our complimentary shipping service.</p>
-                </div>
-                <div class="services-_card bg-white flex-1 rounded-20 box-shadow py-10 px-12">
-                    <div class="shield-tick bg-primary justify-center items-center flex rounded-full w-9 h-9">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M18.5408 4.12375L13.0408 2.06375C12.4708 1.85375 11.5408 1.85375 10.9708 2.06375L5.47078 4.12375C4.41078 4.52375 3.55078 5.76375 3.55078 6.89375V14.9937C3.55078 15.8038 4.08078 16.8738 4.73078 17.3538L10.2308 21.4637C11.2008 22.1937 12.7908 22.1937 13.7608 21.4637L19.2608 17.3538C19.9108 16.8638 20.4408 15.8038 20.4408 14.9937V6.89375C20.4508 5.76375 19.5908 4.52375 18.5408 4.12375ZM15.4808 9.72375L11.1808 14.0238C11.0308 14.1737 10.8408 14.2437 10.6508 14.2437C10.4608 14.2437 10.2708 14.1737 10.1208 14.0238L8.52078 12.4037C8.23078 12.1137 8.23078 11.6337 8.52078 11.3438C8.81078 11.0538 9.29078 11.0538 9.58078 11.3438L10.6608 12.4237L14.4308 8.65375C14.7208 8.36375 15.2008 8.36375 15.4908 8.65375C15.7808 8.94375 15.7808 9.43375 15.4808 9.72375Z"
-                                fill="white" />
-                        </svg>
-                    </div>
-                    <h3>Secure Payment</h3>
-                    <p>Experience worry-free transactions with our secure payment options.</p>
-                </div>
-                <div class="services-_card bg-white flex-1 rounded-20 box-shadow py-10 px-12">
-                    <div class="support bg-primary justify-center items-center flex rounded-full w-9 h-9">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M9.23576 0.0195141C8.27717 0.167622 7.66306 0.45699 7.06498 1.04233C5.56279 2.51266 5.47498 4.91504 6.85519 6.78199C6.9655 6.93126 7.31946 7.32504 7.64177 7.65709C8.66521 8.71149 10.0762 9.8829 12.1334 11.3862L12.7104 11.8078L13.3758 11.3146C15.4311 9.79122 16.7986 8.65449 17.7468 7.6812C18.4867 6.92175 18.779 6.53034 19.0798 5.89619C19.4122 5.19519 19.5241 4.69502 19.522 3.91884C19.52 3.15071 19.443 2.80603 19.1195 2.11478C18.9137 1.67508 18.8313 1.55779 18.4554 1.16941C17.9748 0.672955 17.5594 0.396078 17.0182 0.21151C16.1133 -0.0971494 15.2038 -0.0512363 14.3696 0.345246C13.8865 0.574859 13.6371 0.760103 13.1394 1.25878L12.7064 1.69259L12.2252 1.21113C11.6926 0.678356 11.2714 0.396319 10.7313 0.210931C10.2294 0.0387088 9.61809 -0.0395652 9.23576 0.0195141ZM7.7121 13.547C7.11299 13.6002 6.25303 13.7491 5.65154 13.904C4.95984 14.082 4.03186 14.4079 4.03186 14.4727C4.03186 14.5536 6.38084 21.8036 6.42228 21.8506C6.44131 21.8722 6.676 21.8521 6.94384 21.8059C7.37516 21.7316 7.97468 21.7186 12.1893 21.6921L16.9479 21.6622L17.3988 21.5362C17.946 21.3833 18.4694 21.1403 18.8666 20.8547C19.0297 20.7374 20.1602 19.7775 21.379 18.7216C22.9433 17.3663 23.6347 16.7371 23.7306 16.5817C24.1026 15.9784 24.0886 15.3468 23.6933 14.8945C23.5794 14.7642 23.4001 14.623 23.289 14.5763C23.0429 14.4726 22.6293 14.4667 22.4075 14.5637C22.316 14.6037 21.5671 15.0658 20.7432 15.5905C19.0719 16.6548 18.5405 16.9463 17.8454 17.1799C16.7076 17.5624 16.3503 17.5896 12.4589 17.5906L9.18888 17.5915V16.8701V16.1487L11.5916 16.1346C13.9158 16.121 14.0012 16.1172 14.2053 16.0196C14.5171 15.8705 14.701 15.6897 14.8416 15.3941C15.0971 14.8568 14.9636 14.1955 14.5209 13.8057C14.1624 13.4901 14.1773 13.4914 11.0205 13.4987C9.45873 13.5024 7.96995 13.5241 7.7121 13.547ZM1.32545 15.6528L0.00210969 16.2652L0.00103141 20.1326L0 24L0.503982 23.8168C0.781196 23.7161 1.89403 23.3232 2.97701 22.9438C4.05999 22.5643 4.96425 22.2376 4.98647 22.2177C5.02923 22.1795 2.73369 15.0336 2.68011 15.0379C2.6629 15.0393 2.05334 15.316 1.32545 15.6528Z"
-                                fill="white" />
-                        </svg>
-                    </div>
-                    <h3>Love to help you</h3>
-                    <p>Our dedicated team is here to assist you every step of the way.</p>
-                </div>
-            </section>
-            <section id="specialOffer" class="sec flex ">
-                <div class="specialOffer__img flex flex-1">
-                    <img src="./assets/images/offer.svg" alt="offer">
-                </div>
-                <div class="specialOffer__text">
-                    <h2 class="text-5xl bold capitalize ">We Provide You <span class="text-primary">Special</span> Offer</h2>
-                    <p class=" text-body text-xl leading-6">Embark on a shopping journey that redefines your experience with unbeatable deals. From premier
-                        selections to incredible savings, we offer unparalleled value that sets us apart.</p>
-                    <p class=" text-body text-xl leading-6">Navigate a realm of possibilities designed to fulfill your unique desires, surpassing the
-                        loftiest expectations. Your journey with us is nothing short of exceptional.</p>
-                    <div class="flex gap-4 items-center">
-                        <button class="btn btn-primary rounded-full"> <span class="text-xl">shop now</span>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10Z" fill="white"/>
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.0886 6.18499C10.8717 6.43163 10.8717 6.83153 11.0886 7.07817L13.1032 9.36842H5.55556C5.24873 9.36842 5 9.65119 5 10C5 10.3488 5.24873 10.6316 5.55556 10.6316H13.1032L11.0886 12.9218C10.8717 13.1685 10.8717 13.5684 11.0886 13.815C11.3056 14.0617 11.6574 14.0617 11.8743 13.815L14.8373 10.4466C15.0542 10.1999 15.0542 9.80005 14.8373 9.55341L11.8743 6.18499C11.6574 5.93834 11.3056 5.93834 11.0886 6.18499Z" fill="#FF6452"/>
-                                </svg>
-                        </button>
-                        <button class="btn rounded-full text-xl text-body bg-white">learn more</button>
-                    </div>    
-                </div>
-            </section>
-            <section id="customerReviews" class="sec">
-                <div class="">
-                    <h2 class="text-center ">What Our <span class="text-primary">Customers</span> Say?</h2>
-                    <p class="text-center">Hear genuine stories from our satisfied customers about their exceptional experiences with us.
-                    </p>
-                    <div class="flex  justify-between  ">
-                        <div class="flex-col">
-                            <img src="https://nike-clone-ruby.vercel.app/build/_assets/customer1-EHVMOBL7.jpeg" class="image w-30" alt=".">
-                            <p class="w-60 text-center">The attention to detail and the quality of the product exceeded my expectations. Highly
-                                recommended!</p>
-                            <div class="flex ">
-                                <img src="https://nike-clone-ruby.vercel.app/build/_assets/star-QQQGCCID.svg" alt=".">
-                                <p>(4.5)</p>
-                            </div>
-                            <p>Morich Brown</p>
-                        </div>
-                        <div class="flex-col">
-                            <img src="https://nike-clone-ruby.vercel.app/build/_assets/customer2-LVAEEHC3.svg" class="image  w-30 justify-center" alt=".">
-                            <p class="w-60 text-center">The product not only met but exceeded my expectations. I'll definitely be a returning
-                                customer!</p>
-                            <div class="flex">
-                                <img src="https://nike-clone-ruby.vercel.app/build/_assets/star-QQQGCCID.svg" alt=".">
-                                <p>(4.5)</p>
-                            </div>
-                            <p>Lota Mongeskar</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="subscribe" class="sec">
-                <div class="flex justify-between">
-                        <h2 class="">Sign Up for<span class="text-primary">Updates</span> & Newsletter </h2>
-                    <div>
-                        <input type="text" placeholder="subscribe@nike.com">
-                        <div>
-                            <button class="btn-Sign Up">Sign Up</button>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
-        </section>
-        <footer id="footer" class="bg-black">
-            <div id="end" class="my-0 mx-12 pt-12 pb-8">
-                <div id="logo__text" class="flex  justify-between items-start flex-wrap">
-                    <div class=" flex flex-col items-start w-70">
-                        <img src="./assets/images/footer-logo.svg" alt="footer-logo" width="130px" height="40px">
-                        <p class="text-white text-xl">Get shoes ready for the new term at your nearest Nike store. 
-                            Get Rewards Find Your perfect Size In Store.</p>
-                            
-                        <div id="icons" class="gap-4 flex mt-8 items-center">
-                            <div class="bg-white rounded-full w-9 h-9 justify-center items-center flex">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M17.5648 1.00458L14.7875 1C11.6674 1 9.65099 3.12509 9.65099 6.41423V8.91055H6.85857C6.61728 8.91055 6.42188 9.1115 6.42188 9.35937V12.9763C6.42188 13.2241 6.6175 13.4249 6.85857 13.4249H9.65099V22.5514C9.65099 22.7993 9.84639 23 10.0877 23H13.731C13.9723 23 14.1677 22.799 14.1677 22.5514V13.4249H17.4327C17.674 13.4249 17.8694 13.2241 17.8694 12.9763L17.8707 9.35937C17.8707 9.24036 17.8246 9.12638 17.7428 9.04215C17.661 8.95793 17.5496 8.91055 17.4338 8.91055H14.1677V6.79439C14.1677 5.77727 14.4036 5.26094 15.6935 5.26094L17.5643 5.26025C17.8054 5.26025 18.0008 5.0593 18.0008 4.81166V1.45317C18.0008 1.20576 17.8056 1.00504 17.5648 1.00458Z"
-                                    fill="black" />
-                            </svg></div>
-                            <div class="bg-white rounded-full w-9 h-9 justify-center items-center flex">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M22.5 5.77624C21.7271 6.10418 20.8978 6.32658 20.0264 6.42587C20.9161 5.91571 21.5972 5.10654 21.92 4.1453C21.0854 4.61774 20.1642 4.96079 19.1826 5.14675C18.3966 4.34385 17.2785 3.84375 16.0384 3.84375C13.6593 3.84375 11.7303 5.69081 11.7303 7.9676C11.7303 8.29051 11.7683 8.6059 11.8418 8.90748C8.26201 8.73532 5.08768 7.09308 2.96314 4.59763C2.59176 5.20579 2.38049 5.91443 2.38049 6.67088C2.38049 8.10205 3.14161 9.36484 4.2964 10.1036C3.5904 10.081 2.92639 9.89507 2.34508 9.58596V9.63748C2.34508 11.6353 3.83056 13.3027 5.80024 13.6822C5.43936 13.7752 5.05882 13.8267 4.66514 13.8267C4.38696 13.8267 4.11794 13.8003 3.85417 13.75C4.40267 15.3898 5.99315 16.5822 7.87756 16.6149C6.40388 17.7206 4.54573 18.3778 2.52749 18.3778C2.17976 18.3778 1.83724 18.3576 1.5 18.3212C3.40671 19.4935 5.67036 20.1771 8.10327 20.1771C16.028 20.1771 20.3597 13.892 20.3597 8.44132L20.3453 7.90731C21.1917 7.32928 21.9239 6.60303 22.5 5.77624Z"
-                                    fill="black" />
-                            </svg></div>
-                            <div class="bg-white rounded-full w-9 h-9 justify-center items-center flex ">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M2 12C2 7.80863 2 5.71294 3.05041 4.26718C3.38964 3.80026 3.80026 3.38964 4.26718 3.05041C5.71294 2 7.80863 2 12 2C16.1914 2 18.2871 2 19.7328 3.05041C20.1997 3.38964 20.6104 3.80026 20.9496 4.26718C22 5.71294 22 7.80863 22 12C22 16.1914 22 18.2871 20.9496 19.7328C20.6104 20.1997 20.1997 20.6104 19.7328 20.9496C18.2871 22 16.1914 22 12 22C7.80863 22 5.71294 22 4.26718 20.9496C3.80026 20.6104 3.38964 20.1997 3.05041 19.7328C2 18.2871 2 16.1914 2 12ZM12.0011 6.70312C9.07747 6.70312 6.70703 9.07357 6.70703 11.9972C6.70703 14.9209 9.07747 17.2914 12.0011 17.2914C14.9248 17.2914 17.2953 14.9209 17.2953 11.9972C17.2953 9.07357 14.9248 6.70312 12.0011 6.70312ZM12.0011 15.3061C10.1773 15.3061 8.69233 13.8211 8.69233 11.9972C8.69233 10.1721 10.1773 8.68842 12.0011 8.68842C13.825 8.68842 15.31 10.1721 15.31 11.9972C15.31 13.8211 13.825 15.3061 12.0011 15.3061ZM18.3953 6.307C18.3953 6.69661 18.0794 7.01244 17.6898 7.01244C17.3002 7.01244 16.9844 6.69661 16.9844 6.307C16.9844 5.9174 17.3002 5.60156 17.6898 5.60156C18.0794 5.60156 18.3953 5.9174 18.3953 6.307Z"
-                                    fill="black" />
-                            </svg></div>
-                        </div>
-                    </div>
-                    <div class="">
-                        <h4 class="text-white ml-10 text-2xl mt-0">Products</h4>
-                        <ul>
-                            <li class="mt-3 text-xl text-body"><a href="">Air Force 1</a></li>
-                            <li class="mt-3 text-xl text-body"><a href="">Air Max 1</a></li>
-                            <li class="mt-3 text-xl text-body"><a href="">Air Jordan 1</a></li>
-                            <li class="mt-3 text-xl text-body"><a href="">Air Force 2</a></li>
-                            <li class="mt-3 text-xl text-body"><a href="">Nike Waffle Racer</a></li>
-                            <li class="mt-3 text-xl text-body"><a href="">Nike Cortez</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-white ml-10 text-2xl mt-0">Help</h4>
-                        <ul>
-                            <li class="mt-3 text-xl text-body"><a href="">About us</a></li>
-                            <li class="mt-3 text-xl text-body"><a href="">FAQs</a></li>
-                            <li class="mt-3 text-xl text-body"><a href="">How it works</a></li>
-                            <li class="mt-3 text-xl text-body"><a href="">Privacy policy</a></li>
-                            <li class="mt-3 text-xl text-body"><a href="">Payment policy</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-white ml-10 text-2xl mt-0">Get in touch</h4>
-                        <ul class="">
-                            <li class="mt-3 text-xl text-body"><a href="">customer@nike.com</a></li>
-                            <li class="mt-3 text-xl text-body"><a href="">+92554862354</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="flex justify-between items-center ">
-                    <div class="flex items-center  justify-start gap-2 flex-1"> 
-                    
-                        <svg width="15" height="15" viewBox="0 0 20 20" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M10.688 16.096C9.57867 16.096 8.576 15.8507 7.68 15.36C6.79467 14.8693 6.096 14.192 5.584 13.328C5.08267 12.4533 4.832 11.4773 4.832 10.4C4.832 9.32267 5.08267 8.352 5.584 7.488C6.096 6.61333 6.8 5.93067 7.696 5.44C8.592 4.94933 9.59467 4.704 10.704 4.704C11.536 4.704 12.304 4.84267 13.008 5.12C13.712 5.39733 14.3093 5.80267 14.8 6.336L14.048 7.088C13.1733 6.20267 12.0693 5.76 10.736 5.76C9.85067 5.76 9.04533 5.96267 8.32 6.368C7.59467 6.77333 7.024 7.328 6.608 8.032C6.20267 8.736 6 9.52533 6 10.4C6 11.2747 6.20267 12.064 6.608 12.768C7.024 13.472 7.59467 14.0267 8.32 14.432C9.04533 14.8373 9.85067 15.04 10.736 15.04C12.08 15.04 13.184 14.592 14.048 13.696L14.8 14.448C14.3093 14.9813 13.7067 15.392 12.992 15.68C12.288 15.9573 11.52 16.096 10.688 16.096Z"
-                                        fill="white" />
-                                    <circle cx="10" cy="10" r="9.5" stroke="white" />
-                        </svg>
-                        <a href="">
-                            <p class="text-xs">Copyright. All rights reserved.</p>
-                        </a>
-                    </div>
-                    <div>
-                        <p><a href="" class="text-xs">Terms & Conditions</a></p>
-                    </div>
-                </div>
+  <main>
+    <header class="sec py-4 z-20 absolute">
+      <nav class="flex justify-between items-center gap-60 lg:gap-90">
+        <div class="logo">
+          <a href=""><img src="./assets/images/header-logo.svg" alt="logo" height="29" width="129" /></a>
+        </div>
+        <ul class="flex-1 gap-16 hidden items-center gap-x-15 text-xl lg:flex">
+          <li>
+            <a href="#Home"  class=" text-base leading-7">Home</a>
+          </li>
+          <li>
+            <a href="#About-Us" class=" text-base leading-7">About Us</a>
+          </li>
+          <li>
+            <a href="#Products" class=" text-base leading-7">Products</a>
+          </li>
+          <li>
+            <a href="#Contact-Us" class=" text-base leading-7">Contact Us</a>
+          </li>
+        </ul>
+        <div class="hamburger flex flex-col lg:hidden">
+          <span id="first-line" class="line"></span>
+          <span id="second-line" class="line"></span>
+          <span id="third-line" class="line"></span>
+        </div>
+      </nav>
+    </header>
+    <!-- <aside class="h-screen w-96 bg-white fixed lg:hidden"></aside> -->
+    <section class="content-sec">
+      <section class="home-sec sec relative flex  justify-center flex-col lg:flex-row lg:max-h-screen pt-36" style="bottom: 10rem;" id="home">
+        <div class="home-text relative flex flex-col pt-32 pb-12 lg:w-40%">
+          <p class="text-xl mb-8 text-primary lg:mb-10">Lorem ipsum dolor</p>
+          <h1 class="capitalize text-7xl lg:text-8xl pb-8 bold lg:mb-10">
+            <span class="inline-block lg:text-nowrap z-30 relative bg-white p-1 mb-2">the new
+              arrival</span>
+            <span class="text-primary"> nike</span>
+            shoes
+          </h1>
+          <p class="text-lg body-color lg:mb-12 mb-8 leading-8 lg:max-w-30">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+            dolorum ipsa sed architecto quaerat tempora velit reprehenderit
+            enim ut inventore.
+          </p>
+          <button class="btn btn-primary rounded-full lg:mb-12 mb-8">
+            <span class="text-lg"> show now</span>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10Z"
+                fill="white" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M11.0886 6.18499C10.8717 6.43163 10.8717 6.83153 11.0886 7.07817L13.1032 9.36842H5.55556C5.24873 9.36842 5 9.65119 5 10C5 10.3488 5.24873 10.6316 5.55556 10.6316H13.1032L11.0886 12.9218C10.8717 13.1685 10.8717 13.5684 11.0886 13.815C11.3056 14.0617 11.6574 14.0617 11.8743 13.815L14.8373 10.4466C15.0542 10.1999 15.0542 9.80005 14.8373 9.55341L11.8743 6.18499C11.6574 5.93834 11.3056 5.93834 11.0886 6.18499Z"
+                fill="#FF6452" />
+            </svg>
+          </button>
+          <div class="flex justify-start flex-wrap gap-16 items-start">
+            <div>
+              <p class="text-5xl semibold my-0">100k+</p>
+              <p class="body-color text-xl">Brands</p>
             </div>
-        </footer>
-    </main>
+            <div>
+              <p class="text-5xl semibold my-0">20k+</p>
+              <p class="body-color text-xl">Brands</p>
+            </div>
+            <div>
+              <p class="text-5xl semibold my-0">500k+</p>
+              <p class="body-color text-xl">Brands</p>
+            </div>
+          </div>
+        </div>
+        <div class="home-images lg:flex-1 bg-home lg:p-12 justify-center items-center min-h-screen relative">
+          <img id="hero-img" src="./assets/images/big-shoe1.png" alt="big-shoe1"
+            class="object-contain pt-22 lg:pl-32  z-10 relative" />
+          <div class="flex justify-center lg:gap-10 gap-4 lg:ml-22 absolute z-10" style="bottom: -12px;">
+            <div class="bg-home-nav">
+              <img class="nav-img sm:w-23 sm:h-18" src="./assets/images/big-shoe1.png" alt="big-shoe1" height="103" width="127" />
+            </div>
+            <div class="bg-home-nav">
+              <img class="nav-img sm:w-23 sm:h-18" src="./assets/images/big-shoe2.png" alt="big-shoe2" height="103" width="127" />
+            </div>
+            <div class="bg-home-nav">
+              <img class="nav-img sm:w-23 sm:h-18" src="./assets/images/big-shoe3.png" alt="big-shoe3" height="103" width="127" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="Products" class="sec mb-24">
+        <div class="Products__text flex flex-col my-20 max-w-40">
+          <h2 class="text-5xl capitalize bold mb-10">
+            Our <span class="text-primary">Popular</span> Products
+          </h2>
+          <p class="text-body text-lg leading-8 lg:max-w-32">
+            Experience top-notch quality and style with our sought-after
+            selections. Discover a world of comfort, design, and value
+          </p>
+        </div>
+        <div class="Products__img flex flex-col lg:flex-row justify-between gap-12">
+          <div>
+            <img src="./assets/images/shoe4.svg" alt="shoe4" />
+            <div class="my-2">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M10.0755 1.24162C10.4158 0.416631 11.5842 0.416631 11.9245 1.24162L13.9694 6.20014C14.2507 6.88227 14.8848 7.3541 15.619 7.42766L20.796 7.94636C21.6527 8.03219 22.0077 9.08845 21.3767 9.67424L17.3747 13.3897C16.8594 13.8681 16.6332 14.582 16.7789 15.2699L17.9307 20.7069C18.1132 21.5686 17.1733 22.2283 16.425 21.7638L12.0548 19.051C11.4088 18.6499 10.5912 18.6499 9.94518 19.051L5.57504 21.7638C4.82673 22.2283 3.88681 21.5686 4.06934 20.7069L5.22109 15.2699C5.36681 14.582 5.14058 13.8681 4.62527 13.3897L0.62328 9.67424C-0.00768149 9.08845 0.347297 8.03219 1.20397 7.94636L6.38103 7.42766C7.11522 7.3541 7.74926 6.88227 8.03058 6.20014L10.0755 1.24162Z"
+                  fill="#FF6452" />
+              </svg>
+              <span class="text-body text-xl">(4.5)</span>
+            </div>
+            <h3 class="text-2xl mb-2" >Nike Air Jordan-01</h3>
+            <p class="text-primary text-2xl capitalize bold">$200.20</p>
+          </div>
+          <div>
+            <img src="./assets/images/shoe5.svg" alt="shoe5" />
+            <div class="my-2">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M10.0755 1.24162C10.4158 0.416631 11.5842 0.416631 11.9245 1.24162L13.9694 6.20014C14.2507 6.88227 14.8848 7.3541 15.619 7.42766L20.796 7.94636C21.6527 8.03219 22.0077 9.08845 21.3767 9.67424L17.3747 13.3897C16.8594 13.8681 16.6332 14.582 16.7789 15.2699L17.9307 20.7069C18.1132 21.5686 17.1733 22.2283 16.425 21.7638L12.0548 19.051C11.4088 18.6499 10.5912 18.6499 9.94518 19.051L5.57504 21.7638C4.82673 22.2283 3.88681 21.5686 4.06934 20.7069L5.22109 15.2699C5.36681 14.582 5.14058 13.8681 4.62527 13.3897L0.62328 9.67424C-0.00768149 9.08845 0.347297 8.03219 1.20397 7.94636L6.38103 7.42766C7.11522 7.3541 7.74926 6.88227 8.03058 6.20014L10.0755 1.24162Z"
+                  fill="#FF6452" />
+              </svg>
+              <span class="text-body text-xl">(4.5)</span>
+            </div>
+            <h3 class="text-2xl mb-2" >Nike Air Jordan-01</h3>
+            <p class="text-primary text-2xl capitalize bold">$210.20</p>
+          </div>
+          <div>
+            <img src="./assets/images/shoe6.svg" alt="shose6" />
+            <div class="my-2">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M10.0755 1.24162C10.4158 0.416631 11.5842 0.416631 11.9245 1.24162L13.9694 6.20014C14.2507 6.88227 14.8848 7.3541 15.619 7.42766L20.796 7.94636C21.6527 8.03219 22.0077 9.08845 21.3767 9.67424L17.3747 13.3897C16.8594 13.8681 16.6332 14.582 16.7789 15.2699L17.9307 20.7069C18.1132 21.5686 17.1733 22.2283 16.425 21.7638L12.0548 19.051C11.4088 18.6499 10.5912 18.6499 9.94518 19.051L5.57504 21.7638C4.82673 22.2283 3.88681 21.5686 4.06934 20.7069L5.22109 15.2699C5.36681 14.582 5.14058 13.8681 4.62527 13.3897L0.62328 9.67424C-0.00768149 9.08845 0.347297 8.03219 1.20397 7.94636L6.38103 7.42766C7.11522 7.3541 7.74926 6.88227 8.03058 6.20014L10.0755 1.24162Z"
+                  fill="#FF6452" />
+              </svg>
+              <span class="text-body text-xl my-2">(4.5)</span>
+            </div>
+            <h3 class="text-2xl mb-2">Nike Air Jordan-100</h3>
+            <p class="text-primary text-2xl capitalize bold">$220.20</p>
+          </div>
+          <div>
+            <img src="./assets/images/shoe7.svg" alt="shose7" />
+            <div class="my-2">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M10.0755 1.24162C10.4158 0.416631 11.5842 0.416631 11.9245 1.24162L13.9694 6.20014C14.2507 6.88227 14.8848 7.3541 15.619 7.42766L20.796 7.94636C21.6527 8.03219 22.0077 9.08845 21.3767 9.67424L17.3747 13.3897C16.8594 13.8681 16.6332 14.582 16.7789 15.2699L17.9307 20.7069C18.1132 21.5686 17.1733 22.2283 16.425 21.7638L12.0548 19.051C11.4088 18.6499 10.5912 18.6499 9.94518 19.051L5.57504 21.7638C4.82673 22.2283 3.88681 21.5686 4.06934 20.7069L5.22109 15.2699C5.36681 14.582 5.14058 13.8681 4.62527 13.3897L0.62328 9.67424C-0.00768149 9.08845 0.347297 8.03219 1.20397 7.94636L6.38103 7.42766C7.11522 7.3541 7.74926 6.88227 8.03058 6.20014L10.0755 1.24162Z"
+                  fill="#FF6452" />
+              </svg>
+              <span class="text-body text-xl">(4.5)</span>
+            </div>
+            <h3 class="text-2xl mb-2" >Nike Air Jordan-001</h3>
+            <p class="text-primary text-2xl capitalize bold">$230.20</p>
+          </div>
+        </div>
+      </section>
+      <section id="About-Us" class="sec mb-24 flex lg:flex-row flex-col gap-12 mx-auto py-10 px-16">
+        <div class="about-us__text  flex flex-col justify-center flex-1 max-w-32">
+          <h2 class="text-5xl capitalize bold mb-10">
+            We Provide You <span class="text-primary">Super</span>
+            <span class="text-primary">Quality</span> Shoes
+          </h2>
+          <p class="text-lg body-color leading-8 mb-10">
+            Ensuring premium comfort and style, our meticulously crafted
+            footwear is designed to elevate your experience, providing you
+            with unmatched quality, innovation, and a touch of elegance.
+          </p>
+          <p class="text-lg body-color leading-8 mb-10">
+            Our dedication to detail and excellence ensures your satisfaction
+          </p>
+          <div>
+            <button class="rounded-full btn-primary btn w-40" >
+              View details
+            </button>
+          </div>
+        </div>
+        <div class="about-us__img flex flex-1 items-center lg:justify-end">
+          <img id="about-img" src="https://nike-clone-ruby.vercel.app/build/_assets/shoe8-OH4QWLKN.svg" class="object-containe"
+            alt="shoe8" />
+        </div>
+      </section>
+      <section id="services" class="sec mb-32 flex lg:flex-row flex-col gap-9">
+        <div class="services-_card bg-white flex-1 rounded-20 shadow-2xl py-16 px-12">
+          <div class="truck-fast bg-primary justify-center items-center flex rounded-full w-9 h-9">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M21.5 15.5C21.78 15.5 22 15.72 22 16V17C22 18.66 20.66 20 19 20C19 18.35 17.65 17 16 17C14.35 17 13 18.35 13 20H11C11 18.35 9.65 17 8 17C6.35 17 5 18.35 5 20C3.34 20 2 18.66 2 17V15C2 14.45 2.45 14 3 14H12.5C13.88 14 15 12.88 15 11.5V6C15 5.45 15.45 5 16 5H16.84C17.56 5 18.22 5.39 18.58 6.01L19.22 7.13C19.31 7.29 19.19 7.5 19 7.5C17.62 7.5 16.5 8.62 16.5 10V13C16.5 14.38 17.62 15.5 19 15.5H21.5Z"
+                fill="white" />
+              <path
+                d="M8 22C9.10457 22 10 21.1046 10 20C10 18.8954 9.10457 18 8 18C6.89543 18 6 18.8954 6 20C6 21.1046 6.89543 22 8 22Z"
+                fill="white" />
+              <path
+                d="M16 22C17.1046 22 18 21.1046 18 20C18 18.8954 17.1046 18 16 18C14.8954 18 14 18.8954 14 20C14 21.1046 14.8954 22 16 22Z"
+                fill="white" />
+              <path
+                d="M22 12.53V14H19C18.45 14 18 13.55 18 13V10C18 9.45 18.45 9 19 9H20.29L21.74 11.54C21.91 11.84 22 12.18 22 12.53Z"
+                fill="white" />
+              <path
+                d="M13.08 2H5.69C3.9 2 2.4 3.28 2.07 4.98H6.44C6.82 4.98 7.12 5.29 7.12 5.67C7.12 6.05 6.82 6.35 6.44 6.35H2V7.73H4.6C4.98 7.73 5.29 8.04 5.29 8.42C5.29 8.8 4.98 9.1 4.6 9.1H2V10.48H2.77C3.15 10.48 3.46 10.79 3.46 11.17C3.46 11.55 3.15 11.85 2.77 11.85H2V12.08C2 12.63 2.45 13.08 3 13.08H12.15C13.17 13.08 14 12.25 14 11.23V2.92C14 2.41 13.59 2 13.08 2Z"
+                fill="white" />
+              <path
+                d="M2.07 4.98438H1.92H0.94C0.56 4.98438 0.25 5.29438 0.25 5.67438C0.25 6.05438 0.56 6.35437 0.94 6.35437H1.85H2V5.69438C2 5.45438 2.03 5.21438 2.07 4.98438Z"
+                fill="white" />
+              <path
+                d="M1.85 7.73438H0.94C0.56 7.73438 0.25 8.04438 0.25 8.42438C0.25 8.80438 0.56 9.10438 0.94 9.10438H1.85H2V7.73438H1.85Z"
+                fill="white" />
+              <path
+                d="M1.85 10.4844H0.94C0.56 10.4844 0.25 10.7944 0.25 11.1744C0.25 11.5544 0.56 11.8544 0.94 11.8544H1.85H2V10.4844H1.85Z"
+                fill="white" />
+            </svg>
+          </div>
+          <h3 class="bold text-2xl leading-normal mt-3">Free shipping</h3>
+          <p class="text-lg text-body leading-normal break-words mt-3">
+            Enjoy seamless shopping with our complimentary shipping service.
+          </p>
+        </div>
+        <div class="services-_card bg-white flex-1 rounded-20 shadow-2xl py-16 px-12">
+          <div class="shield-tick bg-primary justify-center items-center flex rounded-full w-9 h-9">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M18.5408 4.12375L13.0408 2.06375C12.4708 1.85375 11.5408 1.85375 10.9708 2.06375L5.47078 4.12375C4.41078 4.52375 3.55078 5.76375 3.55078 6.89375V14.9937C3.55078 15.8038 4.08078 16.8738 4.73078 17.3538L10.2308 21.4637C11.2008 22.1937 12.7908 22.1937 13.7608 21.4637L19.2608 17.3538C19.9108 16.8638 20.4408 15.8038 20.4408 14.9937V6.89375C20.4508 5.76375 19.5908 4.52375 18.5408 4.12375ZM15.4808 9.72375L11.1808 14.0238C11.0308 14.1737 10.8408 14.2437 10.6508 14.2437C10.4608 14.2437 10.2708 14.1737 10.1208 14.0238L8.52078 12.4037C8.23078 12.1137 8.23078 11.6337 8.52078 11.3438C8.81078 11.0538 9.29078 11.0538 9.58078 11.3438L10.6608 12.4237L14.4308 8.65375C14.7208 8.36375 15.2008 8.36375 15.4908 8.65375C15.7808 8.94375 15.7808 9.43375 15.4808 9.72375Z"
+                fill="white" />
+            </svg>
+          </div>
+          <h3 class="bold text-2xl leading-normal mt-3">Secure Payment</h3>
+          <p class="text-lg text-body leading-normal break-words mt-3">
+            Experience worry-free transactions with our secure payment
+            options.
+          </p>
+        </div>
+        <div class="services-_card bg-white flex-1 rounded-20 shadow-2xl py-16 px-12">
+          <div class="support bg-primary justify-center items-center flex rounded-full w-9 h-9">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M9.23576 0.0195141C8.27717 0.167622 7.66306 0.45699 7.06498 1.04233C5.56279 2.51266 5.47498 4.91504 6.85519 6.78199C6.9655 6.93126 7.31946 7.32504 7.64177 7.65709C8.66521 8.71149 10.0762 9.8829 12.1334 11.3862L12.7104 11.8078L13.3758 11.3146C15.4311 9.79122 16.7986 8.65449 17.7468 7.6812C18.4867 6.92175 18.779 6.53034 19.0798 5.89619C19.4122 5.19519 19.5241 4.69502 19.522 3.91884C19.52 3.15071 19.443 2.80603 19.1195 2.11478C18.9137 1.67508 18.8313 1.55779 18.4554 1.16941C17.9748 0.672955 17.5594 0.396078 17.0182 0.21151C16.1133 -0.0971494 15.2038 -0.0512363 14.3696 0.345246C13.8865 0.574859 13.6371 0.760103 13.1394 1.25878L12.7064 1.69259L12.2252 1.21113C11.6926 0.678356 11.2714 0.396319 10.7313 0.210931C10.2294 0.0387088 9.61809 -0.0395652 9.23576 0.0195141ZM7.7121 13.547C7.11299 13.6002 6.25303 13.7491 5.65154 13.904C4.95984 14.082 4.03186 14.4079 4.03186 14.4727C4.03186 14.5536 6.38084 21.8036 6.42228 21.8506C6.44131 21.8722 6.676 21.8521 6.94384 21.8059C7.37516 21.7316 7.97468 21.7186 12.1893 21.6921L16.9479 21.6622L17.3988 21.5362C17.946 21.3833 18.4694 21.1403 18.8666 20.8547C19.0297 20.7374 20.1602 19.7775 21.379 18.7216C22.9433 17.3663 23.6347 16.7371 23.7306 16.5817C24.1026 15.9784 24.0886 15.3468 23.6933 14.8945C23.5794 14.7642 23.4001 14.623 23.289 14.5763C23.0429 14.4726 22.6293 14.4667 22.4075 14.5637C22.316 14.6037 21.5671 15.0658 20.7432 15.5905C19.0719 16.6548 18.5405 16.9463 17.8454 17.1799C16.7076 17.5624 16.3503 17.5896 12.4589 17.5906L9.18888 17.5915V16.8701V16.1487L11.5916 16.1346C13.9158 16.121 14.0012 16.1172 14.2053 16.0196C14.5171 15.8705 14.701 15.6897 14.8416 15.3941C15.0971 14.8568 14.9636 14.1955 14.5209 13.8057C14.1624 13.4901 14.1773 13.4914 11.0205 13.4987C9.45873 13.5024 7.96995 13.5241 7.7121 13.547ZM1.32545 15.6528L0.00210969 16.2652L0.00103141 20.1326L0 24L0.503982 23.8168C0.781196 23.7161 1.89403 23.3232 2.97701 22.9438C4.05999 22.5643 4.96425 22.2376 4.98647 22.2177C5.02923 22.1795 2.73369 15.0336 2.68011 15.0379C2.6629 15.0393 2.05334 15.316 1.32545 15.6528Z"
+                fill="white" />
+            </svg>
+          </div>
+          <h3 class="bold text-2xl leading-normal mt-3">Love to help you</h3>
+          <p class="text-lg text-body leading-normal break-words mt-3">
+            Our dedicated team is here to assist you every step of the way.
+          </p>
+        </div>
+      </section>
+      <section id="specialOffer" class="sec mb-24 flex lg:flex-row flex-col items-center gap-12">
+        <div class="specialOffer__img flex">
+          <img id="offer-img" src="./assets/images/offer.svg" alt="offer" class="object-contain w-full"/>
+        </div>
+        <div class="specialOffer__text flex flex-col max-w-34">
+          <h2 class="text-5xl capitalize bold mb-6">
+            We Provide You <span class="text-primary">Special</span> Offer
+          </h2>
+          <p class="text-lg body-color mb-6 leading-7">
+            Embark on a shopping journey that redefines your experience with
+            unbeatable deals. From premier selections to incredible savings,
+            we offer unparalleled value that sets us apart.
+          </p>
+          <p class="text-lg body-color mb-10 leading-7">
+            Navigate a realm of possibilities designed to fulfill your unique
+            desires, surpassing the loftiest expectations. Your journey with
+            us is nothing short of exceptional.
+          </p>
+          <div class="flex gap-4 items-center">
+            <button class="btn btn-primary rounded-full w-46">
+              <span class="text-lg">shop now</span>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10Z"
+                  fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M11.0886 6.18499C10.8717 6.43163 10.8717 6.83153 11.0886 7.07817L13.1032 9.36842H5.55556C5.24873 9.36842 5 9.65119 5 10C5 10.3488 5.24873 10.6316 5.55556 10.6316H13.1032L11.0886 12.9218C10.8717 13.1685 10.8717 13.5684 11.0886 13.815C11.3056 14.0617 11.6574 14.0617 11.8743 13.815L14.8373 10.4466C15.0542 10.1999 15.0542 9.80005 14.8373 9.55341L11.8743 6.18499C11.6574 5.93834 11.3056 5.93834 11.0886 6.18499Z"
+                  fill="#FF6452" />
+              </svg>
+            </button>
+            <button class="btn rounded-full text-lg text-body bg-white w-46">
+              learn more
+            </button>
+          </div>
+        </div>
+      </section>
+      <section id="customerReviews" class="sec flex flex-col justify-center items-center mb-24 py-36" style="max-height: h-screen;">
+        <div class="flex flex-col justify-center items-center max-w-40">
+          <h2 class="text-5xl capitalize bold mb-10 text-cente">
+            What Our <span class="text-primary">Customers</span> Say?
+          </h2>
+          <p class="text-center text-lg leading-7 text-body mb-10">
+            Hear genuine stories from our satisfied customers about their
+            exceptional experiences with us.
+          </p>
+        </div>  
+          <div class="mt-24 flex lg:flex-row flex-col flex-1 w-full justify-evenly items-center gap-14">
+            <div class="flex justify-center items-center flex-col">
+              <img src="https://nike-clone-ruby.vercel.app/build/_assets/customer1-EHVMOBL7.jpeg" class="image w-30"
+                alt="." />
+              <p class=" text-center text-lg leading-7 text-body max-w-25 mt-4 ">
+                The attention to detail and the quality of the product
+                exceeded my expectations. Highly recommended!
+              </p>
+              <div class="mt-3 flex justify-center items-center">
+                <img src="https://nike-clone-ruby.vercel.app/build/_assets/star-QQQGCCID.svg" alt="." />
+                <p class="text-xl text-body">(4.5)</p>
+              </div>
+              <p class="mt-3  text-2xl text-center bold">Morich Brown</p>
+            </div>
+            <div class="flex justify-center items-center flex-col">
+              <img src="https://nike-clone-ruby.vercel.app/build/_assets/customer2-LVAEEHC3.svg"
+                class="image w-30 justify-center" alt="." />
+              <p class=" text-center text-lg leading-7 text-body max-w-25 mt-4 ">
+                The product not only met but exceeded my expectations. I'll
+                definitely be a returning customer!
+              </p>
+              <div class="mt-3 flex justify-center items-center">
+                <img src="https://nike-clone-ruby.vercel.app/build/_assets/star-QQQGCCID.svg" alt="." />
+                <p class="text-xl text-body">(4.5)</p>
+              </div>
+              <p class="mt-3 text-2xl text-center bold">Lota Mongeskar</p>
+            </div>
+          </div>
+      </section>
+      <section id="subscribe" class="sec pb-20 flex lg:flex-row flex-col justify-between items-center gap-10">
+          <h2 class="text-5xl capitalize bold max-w-30">
+            Sign Up for<span class="text-primary">Updates</span> & Newsletter
+          </h2>
+          <div class="flex flex-col relative pr-8" style="width: 24rem;">
+            <input type="text" placeholder="subscribe@nike.com" class="text-base leading-normal rounded-full p-5 w-full" style="border: none; border: 1px solid #999;" />
+            <div class="flex justify-center items-center lg:absolute lg:w-40 pt-6" style="bottom:8px; right: 1px;">
+              <button class="btn btn-primary flex gap-2 text-lg leading-none rounded-full w-full">Sign Up</button>
+            </div>
+          </div>
+      </section>
+    </section>
+    <footer id="footer" class="bg-black pt-18">
+      <div id="end" class="my-0 mx-12">
+        <div id="logo__text" class="flex justify-between items-start flex-wrap">
+          <div class="flex flex-col items-start w-70">
+            <img src="./assets/images/footer-logo.svg" alt="footer-logo" width="130px" height="40px" />
+            <p class="mt-3 text-base leading-7 text-white">
+              Get shoes ready for the new term at your nearest Nike store. Get
+              Rewards Find Your perfect Size In Store.
+            </p>
+
+            <div id="icons" class="gap-4 flex mt-8 items-center pb-8">
+              <div class="bg-white rounded-full w-9 h-9 justify-center items-center flex">
+                <a href="" class="mt-3 text-base leading-7 text-white"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.5648 1.00458L14.7875 1C11.6674 1 9.65099 3.12509 9.65099 6.41423V8.91055H6.85857C6.61728 8.91055 6.42188 9.1115 6.42188 9.35937V12.9763C6.42188 13.2241 6.6175 13.4249 6.85857 13.4249H9.65099V22.5514C9.65099 22.7993 9.84639 23 10.0877 23H13.731C13.9723 23 14.1677 22.799 14.1677 22.5514V13.4249H17.4327C17.674 13.4249 17.8694 13.2241 17.8694 12.9763L17.8707 9.35937C17.8707 9.24036 17.8246 9.12638 17.7428 9.04215C17.661 8.95793 17.5496 8.91055 17.4338 8.91055H14.1677V6.79439C14.1677 5.77727 14.4036 5.26094 15.6935 5.26094L17.5643 5.26025C17.8054 5.26025 18.0008 5.0593 18.0008 4.81166V1.45317C18.0008 1.20576 17.8056 1.00504 17.5648 1.00458Z"
+                    fill="black" />
+                </svg></a>
+              </div>
+              <div class="bg-white rounded-full w-9 h-9 justify-center items-center flex">
+               <a href="" class="mt-3 text-base leading-7 text-white"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M22.5 5.77624C21.7271 6.10418 20.8978 6.32658 20.0264 6.42587C20.9161 5.91571 21.5972 5.10654 21.92 4.1453C21.0854 4.61774 20.1642 4.96079 19.1826 5.14675C18.3966 4.34385 17.2785 3.84375 16.0384 3.84375C13.6593 3.84375 11.7303 5.69081 11.7303 7.9676C11.7303 8.29051 11.7683 8.6059 11.8418 8.90748C8.26201 8.73532 5.08768 7.09308 2.96314 4.59763C2.59176 5.20579 2.38049 5.91443 2.38049 6.67088C2.38049 8.10205 3.14161 9.36484 4.2964 10.1036C3.5904 10.081 2.92639 9.89507 2.34508 9.58596V9.63748C2.34508 11.6353 3.83056 13.3027 5.80024 13.6822C5.43936 13.7752 5.05882 13.8267 4.66514 13.8267C4.38696 13.8267 4.11794 13.8003 3.85417 13.75C4.40267 15.3898 5.99315 16.5822 7.87756 16.6149C6.40388 17.7206 4.54573 18.3778 2.52749 18.3778C2.17976 18.3778 1.83724 18.3576 1.5 18.3212C3.40671 19.4935 5.67036 20.1771 8.10327 20.1771C16.028 20.1771 20.3597 13.892 20.3597 8.44132L20.3453 7.90731C21.1917 7.32928 21.9239 6.60303 22.5 5.77624Z"
+                    fill="black" />
+                </svg></a>
+              </div>
+              <div class="bg-white rounded-full w-9 h-9 justify-center items-center flex">
+                <a href="" class="mt-3 text-base leading-7 text-white"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M2 12C2 7.80863 2 5.71294 3.05041 4.26718C3.38964 3.80026 3.80026 3.38964 4.26718 3.05041C5.71294 2 7.80863 2 12 2C16.1914 2 18.2871 2 19.7328 3.05041C20.1997 3.38964 20.6104 3.80026 20.9496 4.26718C22 5.71294 22 7.80863 22 12C22 16.1914 22 18.2871 20.9496 19.7328C20.6104 20.1997 20.1997 20.6104 19.7328 20.9496C18.2871 22 16.1914 22 12 22C7.80863 22 5.71294 22 4.26718 20.9496C3.80026 20.6104 3.38964 20.1997 3.05041 19.7328C2 18.2871 2 16.1914 2 12ZM12.0011 6.70312C9.07747 6.70312 6.70703 9.07357 6.70703 11.9972C6.70703 14.9209 9.07747 17.2914 12.0011 17.2914C14.9248 17.2914 17.2953 14.9209 17.2953 11.9972C17.2953 9.07357 14.9248 6.70312 12.0011 6.70312ZM12.0011 15.3061C10.1773 15.3061 8.69233 13.8211 8.69233 11.9972C8.69233 10.1721 10.1773 8.68842 12.0011 8.68842C13.825 8.68842 15.31 10.1721 15.31 11.9972C15.31 13.8211 13.825 15.3061 12.0011 15.3061ZM18.3953 6.307C18.3953 6.69661 18.0794 7.01244 17.6898 7.01244C17.3002 7.01244 16.9844 6.69661 16.9844 6.307C16.9844 5.9174 17.3002 5.60156 17.6898 5.60156C18.0794 5.60156 18.3953 5.9174 18.3953 6.307Z"
+                    fill="black" />
+                </svg></a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h4 class="text-white ml-10 text-2xl leading-normal">Products</h4>
+            <ul>
+              <li>
+                <a href="" class="mt-3 text-base leading-7 text-white">Air Force 1</a>
+              </li>
+              <li>
+                <a href="" class="mt-3 text-base leading-7 text-white">Air Max 1</a></li>
+              <li>
+                <a href="" class="mt-3 text-base leading-7 text-white">Air Jordan 1</a>
+              </li>
+              <li>
+                <a href="" class="mt-3 text-base leading-7 text-white">Air Force 2</a>
+              </li>
+              <li>
+                <a href="" class="mt-3 text-base leading-7 text-white">Nike Waffle Racer</a>
+              </li>
+              <li>
+                <a href="" class="mt-3 text-base leading-7 text-white">Nike Cortez</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-white ml-10 text-2xl leading-normal">Help</h4>
+            <ul>
+              <li><a href="" class="mt-3 text-base leading-7 text-white">About us</a></li>
+              <li><a href="" class="mt-3 text-base leading-7 text-white">FAQs</a></li>
+              <li>
+                <a href="" class="mt-3 text-base leading-7 text-white">How it works</a>
+              </li>
+              <li>
+                <a href="" class="mt-3 text-base leading-7 text-white">Privacy policy</a>
+              </li>
+              <li>
+                <a href="" class="mt-3 text-base leading-7 text-white">Payment policy</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-white ml-10 text-2xl leading-normal">Get in touch</h4>
+            <ul>
+              <li>
+                <a href="" class="mt-3 text-base leading-7 text-white">customer@nike.com</a>
+              </li>
+              <li>
+                <a href="" class="mt-3 text-base leading-7 text-white">+92554862354</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="flex lg:flex-row flex-col justify-between items-center py-12">
+          <div class="flex items-center justify-start gap-2 flex-1">
+            <svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M10.688 16.096C9.57867 16.096 8.576 15.8507 7.68 15.36C6.79467 14.8693 6.096 14.192 5.584 13.328C5.08267 12.4533 4.832 11.4773 4.832 10.4C4.832 9.32267 5.08267 8.352 5.584 7.488C6.096 6.61333 6.8 5.93067 7.696 5.44C8.592 4.94933 9.59467 4.704 10.704 4.704C11.536 4.704 12.304 4.84267 13.008 5.12C13.712 5.39733 14.3093 5.80267 14.8 6.336L14.048 7.088C13.1733 6.20267 12.0693 5.76 10.736 5.76C9.85067 5.76 9.04533 5.96267 8.32 6.368C7.59467 6.77333 7.024 7.328 6.608 8.032C6.20267 8.736 6 9.52533 6 10.4C6 11.2747 6.20267 12.064 6.608 12.768C7.024 13.472 7.59467 14.0267 8.32 14.432C9.04533 14.8373 9.85067 15.04 10.736 15.04C12.08 15.04 13.184 14.592 14.048 13.696L14.8 14.448C14.3093 14.9813 13.7067 15.392 12.992 15.68C12.288 15.9573 11.52 16.096 10.688 16.096Z"
+                fill="white" />
+              <circle cx="10" cy="10" r="9.5" stroke="white" />
+            </svg>
+            <a href="" class="mt-3 text-base leading-7 text-white">Copyright. All rights reserved.
+            </a>
+          </div>
+          <div>
+          <a href=""class="mt-3 text-base leading-7 text-white">Terms & Conditions</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <script src="./src/js/script.js"></script>
 </body>
 
 </html>
